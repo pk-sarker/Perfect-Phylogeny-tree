@@ -10,6 +10,24 @@ admits a prefect phylogeny. When it does, display the phylogeny tree. Even when 
 
 display the phylogeny tree for the first i<=i<=m compatible characters. 
 
+********************
+
+-------------------------
+|    Global Variables   |
+-------------------------
+ * N : Number of Taxon
+ * M : Number of Characters in each Taxon
+ * isPhylo : Flag which indicates whether it is a perfect phylogeny or not
+ * MAT[][] : Character-State Matrix
+ * MAT1[][] : Character-State Matrix where the columns are ordered in descending base on number of 1's per column 
+ * O[][] : O[i] set
+ * vs[][] : Vertex set those are already divided by characters or O[i].
+ * vc : Number of vertexes in vs[][]
+ * MO[][] : O[i] set created for newly formed character-state matrix M'
+ * s1[] : Set of taxon that has 1's in a particular column
+ * s0[] : Set of taxon that has 0's in a particular column
+ *  
+
 
 
  --------------------
